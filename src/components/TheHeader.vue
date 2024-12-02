@@ -8,7 +8,7 @@
       <img src="../assets/vue-logo.png" class="logo vue" alt="Vue logo" />
     </a>
 
-    <h1>TanStack Query - Vue3 Examples</h1>
+    <h1>TanStack Vue Query Demo</h1>
   </header>
 </template>
 

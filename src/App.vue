@@ -1,24 +1,14 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import TheHeader from './components/TheHeader.vue'
-import { VueQueryDevtools } from '@tanstack/vue-query-devtools'
-</script>
-
 <template>
   <TheHeader />
-  <!-- <header>
-
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header> -->
-
   <RouterView />
-  <VueQueryDevtools />
+  <VueQueryDevtools :initial-is-open="true" />
 </template>
+
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+import { TheHeader } from './components'
+import { VueQueryDevtools } from '@tanstack/vue-query-devtools'
+</script>
 
 <style scoped>
 header {
