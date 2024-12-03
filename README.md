@@ -1,18 +1,9 @@
-# tanstack-query-vue3
+# Data Fetching with TanStack Query Demo
 
-This template should help get you started developing with Vue 3 in Vite.
+Master efficient data fetching in Vue.js with TanStack Query. Explore a structured layered approach using diagrams, code, and a live demo.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+Read my full article
+[on Medium here](https://medium.com/@petrankar/master-efficient-data-fetching-in-vue3-with-tanstack-query-flow-diagram-code-walkthrough-f59bb6875247)
 
 ## Project Setup
 
